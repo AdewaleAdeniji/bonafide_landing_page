@@ -1,10 +1,12 @@
 .formsection {
   width: 1152px;
-  background: #31246b;
+  background: url('/assets/images/formbg.png');
   border-radius: 32px;
   height: 267px;
   display: flex;
   margin-left: 144px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form-text {

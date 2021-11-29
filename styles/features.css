@@ -51,6 +51,7 @@
   line-height: 84px;
   /* identical to box height, or 140% */
   color: #3a3391;
+  display: flex;
   /* text-align: center; */
 
   /* Money Grey/Grey 900 */
