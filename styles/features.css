@@ -1,0 +1,162 @@
+.features.full-12 {
+  background: #f9f8ff;
+  padding-top: 75px;
+  padding-left: 142px;
+  display: block;
+  width: 100vw;
+  scroll-behavior: smooth;
+  padding-bottom: 76px;
+}
+.features::-webkit-scrollbar {
+  display: none;
+}
+
+.feature-title {
+  display: block;
+  width: 500px;
+  font-family: "Lota";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 62px;
+  letter-spacing: -0.02em;
+
+  /* Money Purple/Purple 900 */
+  color: #150f2e;
+  margin-bottom: 73px;
+}
+
+.features-row-one {
+  justify-content: flex-start;
+  overflow-x: hidden;
+}
+
+.feature-card {
+  background: #ffffff;
+  border-radius: 40px;
+  width: 559px;
+  height: 245px;
+  padding: 30px;
+  margin-bottom: 65px;
+  margin-right: 32px;
+  overflow: hidden;
+}
+
+.f-title {
+  height: 85px;
+  /* font-family: DM Sans; */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 84px;
+  /* identical to box height, or 140% */
+  color: #3a3391;
+  /* text-align: center; */
+
+  /* Money Grey/Grey 900 */
+  /* color: #0D152E; */
+}
+
+.f-text {
+  font-family: "Elna";
+  font-size: 24px;
+  line-height: 30px;
+  /* or 125% */
+
+  /* Money Purple/Purple 900 */
+  color: #150f2e;
+  margin-bottom: 32px;
+}
+span.sp-f {
+  text-shadow: 2px 2px #1c9b40;
+  font-family: inherit;
+}
+.features-row-two .feature-card {
+  width: 360px;
+}
+.features-row-one {
+  display: flex;
+}
+.features-row-two .feature-card {
+    height: 401px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.features-row-two .f-text {
+    font-family: 'Elna';
+    /* font-family: Eina03-Regular; */
+    font-size: 24px;
+    line-height: 32px;
+/* or 133% */
+
+
+/* Money Purple/Purple 900 */
+    color: #150F2E;
+}
+
+.f-image img {
+    width: 250px;
+    height: 250px;
+}
+
+.features-row-two {
+    display: flex;
+}
+.desktab {
+    display: none;
+}
+.desk {
+    display: flex;
+}
+@media (max-width: 1000px) {
+  .feature-title {
+    width: 100%;
+  }
+  .features.full-12 {
+    padding-left: 70px;
+  }
+  .feature-card {
+    width: 400px;
+    height: 300px;
+  }
+  .f-title {
+    font-size: 50px;
+  }
+  .features-row-two.full-12 {
+    display: block;
+  }
+  .features-row-two {
+    display: block;
+}
+.desktab {
+    display: block;
+}
+.desk {
+    display: none;
+}
+.features-row-two .feature-card {
+  width: 300px;
+}
+}
+@media (max-width: 720px) {
+  .features.full-12 {
+    padding-left: 20px;
+  }
+  .features-row-one {
+    display: block;
+  }
+  .desktab {
+    display: none;
+}
+.desk {
+    display: block;
+}
+.feature-card {
+  width: 90vw !important;
+}
+.f-image {
+  display: flex;
+  justify-content: center;
+}
+}

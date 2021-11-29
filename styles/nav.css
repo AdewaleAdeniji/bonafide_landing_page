@@ -1,0 +1,156 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  /* padding: 18px; */
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+  transition: 0.6s;
+  border-bottom: 0.5px solid #e8f0fb;
+}
+.navlinks a:hover {
+  background: #533db5;
+  border-radius: 16px;
+  color: #ffffff;
+}
+.sila-link {
+  color: #3a3391;
+}
+.nav .navlogo {
+  margin-left: 144px;
+  cursor: pointer;
+}
+
+.align-right {
+  float: right;
+}
+
+.navlinks a {
+  margin-right: 32px;
+  background: #22b94c;
+  border-radius: 32px;
+  padding: 5px 16px;
+  font-family: 'Elna-Semibold';
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Money White */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+  transition: 0.6s;
+  /* Money Grey/Grey 600 */
+  width: fit-content;
+  min-width: 64px;
+  height: 32px;
+}
+.navlinks a i {
+    margin-right: 10px;
+}
+.mobilenav {
+  display: none;
+}
+@media (min-width: 200px) and (max-width: 762px) {
+  .navdesktop {
+    display: none;
+  }
+  .mobilenav {
+    display: flex;
+  }
+  .mobilenav .navlogo {
+    margin-left: 0px !important;
+  }
+
+  .nav.navbar.mobilenav {
+    padding: 18px;
+  }
+  button.menubtn {
+    border: none;
+    display: block;
+    background: transparent;
+    color: #282f45;
+    float: right;
+    cursor: pointer;
+    font-size: 1.3em;
+  }
+  .navlinks {
+    /* display: none; */
+  }
+  .navmobile {
+    display: block;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    bottom: 0;
+    left: 0;
+
+    right: 0;
+    animation-name: fadeInLeft;
+    animation-duration: 1.2s;
+    animation-iteration-count: 1;
+  }
+  .navmobile .navcontents {
+    width: 65%;
+    background: #fff;
+
+    height: 100%;
+  }
+  .navmobile ul {
+    padding: 2vh;
+    padding-top: 5vh;
+  }
+  .navmobile li {
+    list-style-type: none;
+    margin-bottom: 3vh;
+  }
+
+  .navmobile header {
+    /* position: absolute; */
+    top: 0;
+    height: 8%;
+    /* background: #000; */
+    display: flex;
+    padding: 1vh;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .navmobile header img {
+    height: 28px;
+    width: 140px;
+  }
+
+  .navmobile header i {
+    color: #000;
+    float: right;
+    position: absolute;
+    font-weight: lighter;
+    font-size: 1.7em;
+    left: 55vw;
+  }
+  .navmobile li a {
+    font-size: 15px;
+  }
+  .navlinks a {
+    color: #3a3391;
+    /* border-bottom: 1px solid #3A3391; */
+    font-size: 12px;
+    margin-right: 56px;
+  }
+}

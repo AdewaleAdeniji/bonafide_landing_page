@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Elna";
+    src: url("./fonts/eina-regular.otf"),
+    url("./fonts/eina-regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "Lota";
+    src: url("./fonts/los.otf"),
+    url("./fonts/los.otf") format("opentype");
+}
+@font-face {
+    font-family: "Elna-SemiBold";
+    src: url("./fonts/eina-semibold.otf"),
+    url("./fonts/eina-semibold.otf") format("opentype");
+}
+    
+    

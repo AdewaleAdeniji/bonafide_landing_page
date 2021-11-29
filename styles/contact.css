@@ -1,0 +1,87 @@
+.contact.full-12 {
+    padding-top: 75px;
+    padding-left: 144px;
+    padding-bottom: 80px;
+    padding-right: 140px;
+}
+
+.full-6.contactext {
+    padding-top: 40px;
+}
+
+.c-tag {
+    background: #3A3391;
+/* Money White */
+    border: 5.41301px solid #FFFFFF;
+    border-radius: 14.4347px;
+    width: fit-content;
+    font-family: 'Lota';
+    /* font-family: Lota Grotesque; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.9301px;
+    line-height: 22px;
+/* identical to box height, or 128% */
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+.c-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+
+/* Money Purple/Purple 900 */
+    color: #150F2E;
+    font-family: 'Lota';
+    margin-top: 10px;
+}
+
+.c-subtext {
+    margin-top: 52px;
+    font-family: 'Elna';
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+
+/* Money Grey/Grey 600 */
+
+color: #6B6F7D;
+}
+.c-footer-text {
+    margin-top: 40px;
+}
+.c-footer-text a {
+    
+    font-family: 'Elna';
+    font-size: 20px;
+    line-height: 28px;
+    width:fit-content;
+    padding-bottom:2px;
+/* identical to box height, or 140% */
+    border-bottom:1px solid #1C9B40;
+
+/* Money Green/Green 600 */
+    color: #1C9B40;
+}
+@media (max-width:1000px) {
+    .contact.full-12 {
+        display: block;
+        padding-left: 70px !important;
+    }
+    .contact .full-6 {
+        width: 90vw;
+        margin-bottom: 150px;
+    }
+}
+@media (max-width:720px) {
+    .contact.full-12 {
+        padding-bottom: 40px !important;
+    }
+    .contact.full-12 {
+        padding-left: 10px !important;
+    }
+}

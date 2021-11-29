@@ -1,0 +1,108 @@
+.formsection {
+  width: 1152px;
+  background: #31246b;
+  border-radius: 32px;
+  height: 267px;
+  display: flex;
+  margin-left: 144px;
+}
+
+.form-text {
+  width: 50%;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 62px;
+  letter-spacing: -0.02em;
+
+  /* Money White */
+  color: #ffffff;
+  font-family: "Lota";
+  margin-top: 69px;
+  margin-left: 40px;
+}
+
+.form-area {
+  width: 50%;
+  margin-top: 90px;
+  padding-right: 40px;
+}
+
+.formsection .hero-form-label {
+  color: #fff;
+}
+@media(max-width:1000px){
+    .formsection {
+        margin-left: 70px;
+        padding-bottom:100px;
+    }
+    footer {
+        padding-left: 70px !important;
+        padding-right:40px;
+    }
+  /* .form-text {
+        
+    }   */
+    .formsection {
+        display: block;
+        height: 310px;
+        width:calc(90vw - 70px)
+    }
+    .form-text {
+        width: 90%;
+        padding:20px;
+    }
+    .form-area {
+        width: 90%;
+        margin-left: 69px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 720px) {
+  .formsection {
+    display: block;
+    margin-left: 20px;
+    width: calc(100vw - 50px);
+    height: auto;
+    padding: 20px;
+  }
+
+  .form-text {
+    width: 100%;
+    margin-left: 10px;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+
+  .form-area {
+    margin-top: 20px;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .hero-form {
+    width: 80vw;
+  }
+
+  .formsection .hero-form button {
+    width: 120px;
+    font-size: 15px;
+  }
+
+  .formsection input[type="email"] {
+    width: calc(100% - 120px);
+    font-size: 13px;
+  }
+
+  .formsection .hero-form-label {
+    width: 90vw;
+  }
+
+  footer {
+    padding-left: 15px !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+}
