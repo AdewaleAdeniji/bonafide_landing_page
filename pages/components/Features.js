@@ -28,15 +28,15 @@ const Features = (props) => {
           </div>
         </div>
         <div className="feature-card">
-          <div className="f-text">Wire transfers to anywhere in the world.</div>
+          <div className="f-text">Fund from any crypto exchange.</div>
           <div className="f-image">
-            <img src="/assets/images/wires.svg" />
+            <img src="/assets/images/usdc.svg" />
           </div>
         </div>
         <div className="feature-card">
-          <div className="f-text">Wire transfers to anywhere in the world.</div>
+          <div className="f-text">Pay with cards (Coming soon)</div>
           <div className="f-image">
-            <img src="/assets/images/wires.svg" />
+            <img src="/assets/images/card.svg" />
           </div>
         </div>
       </div>
