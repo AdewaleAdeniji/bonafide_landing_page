@@ -12,6 +12,7 @@
   transition: 0.6s;
   border-bottom: 0.5px solid #e8f0fb;
 }
+
 .navlinks a:hover {
   background: #533db5;
   border-radius: 16px;
@@ -65,7 +66,15 @@
 .mobilenav {
   display: none;
 }
-@media (min-width: 200px) and (max-width: 762px) {
+@media (max-width:1440px){
+  .nav {
+    padding-right: 100px;
+  } 
+}
+@media (max-width: 1000px) {
+  .nav {
+    padding-right: 20px;
+  }
   .navdesktop {
     display: none;
   }

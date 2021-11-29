@@ -19,7 +19,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="full-6 img-sections">
-        <img src="/assets/images/hero-img.svg" />
+        <img src="/assets/images/heroimg.svg" />
       </div>
     </div>
   );

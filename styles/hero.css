@@ -91,6 +91,11 @@
 /* Money Grey/Grey 600 */
     color: #6B6F7D;
 }
+@media (min-width:1000px)  and (max-width:1440px) {
+    .hero-section.full-12 {
+        padding-right: 144px;
+    }
+}
 @media(max-width:1000px){
     .hero-section.full-12 {
         display: block !important;
