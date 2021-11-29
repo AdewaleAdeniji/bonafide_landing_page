@@ -23,7 +23,10 @@ const HeaderNavBar = (props) => {
                 <img src="/assets/images/bonafide.svg" className="navlogo" alt="Moneymie Logo"/>
             </Link>
             <div className="align-right navlinks">
-                <a href="https://medium.com/moneymie" target="_blank"  rel="noopener noreferrer"><i className="fa fa-telegram"></i>Join our Telegram</a>
+                <a href="https://medium.com/moneymie" target="_blank"  rel="noopener noreferrer">
+                    {/* <i className="fa fa-telegram"></i> */}
+                    Join our Telegram
+                </a>
             </div>
         </div>
         <div className="nav navbar mobilenav">

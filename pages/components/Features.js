@@ -36,7 +36,7 @@ const Features = (props) => {
         <div className="feature-card">
           <div className="f-text">Pay with cards (Coming soon)</div>
           <div className="f-image">
-            <img src="/assets/images/card.png" />
+            <img src="/assets/images/cards.svg" />
           </div>
         </div>
       </div>
