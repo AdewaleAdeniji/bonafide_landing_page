@@ -93,7 +93,7 @@
 }
 @media (min-width:1000px)  and (max-width:1440px) {
     .hero-section.full-12 {
-        padding-right: 144px;
+        padding-right: 71px;
     }
 }
 @media(max-width:1000px){
