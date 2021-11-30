@@ -89,7 +89,7 @@ span.sp-f {
     /* font-family: Eina03-Regular; */
     font-size: 24px;
     line-height: 32px;
-/* or 133% */
+  /* or 133% */
 
 
 /* Money Purple/Purple 900 */
@@ -97,8 +97,8 @@ span.sp-f {
 }
 
 .f-image img {
-    width: 250px;
-    height: 250px;
+  width: 283px;
+  height: 277px;
 }
 
 .features-row-two {
@@ -109,6 +109,12 @@ span.sp-f {
 }
 .desk {
     display: flex;
+}
+@media (min-width:1200px){
+  .f-title img {
+    width: 437px;
+    height: 85px;
+  }
 }
 @media (max-width: 1000px) {
   .feature-title {

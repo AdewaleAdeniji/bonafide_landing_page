@@ -6,7 +6,7 @@ const Features = (props) => {
         <div className="features-row-one">
             <div className="feature-card">
             <div className="f-title">
-                🎉 <span className="sp-f">$2000</span> <i className="desktop-only">🎉</i>
+                <img src="/assets/images/2000$.svg"/>
             </div>
             <div className="f-text">
                 Participate to win $2000 weekly. If you don’t win, you get your
@@ -14,7 +14,9 @@ const Features = (props) => {
             </div>
             </div>
             <div className="feature-card">
-            <div className="f-title">Earn 3%</div>
+            <div className="f-title">
+              <img src="/assets/images/3percent.svg"/>
+            </div>
             <div className="f-text">Earn 3% interest on your savings</div>
             </div>
         </div>
