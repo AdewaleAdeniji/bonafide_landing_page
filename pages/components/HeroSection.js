@@ -15,7 +15,7 @@ const HeroSection = () => {
         Enter email address to win $2000
         </div>
         <div className="hero-footer-text">
-        Join our Discord channel.
+        Join our <a>Discord</a> channel. Our Android app launches Jan 1
         </div>
       </div>
       <div className="full-6 img-sections">

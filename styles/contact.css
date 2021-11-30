@@ -1,14 +1,16 @@
 .contact.full-12 {
-    padding-top: 75px;
+   
     padding-left: 144px;
     padding-bottom: 80px;
     padding-right: 140px;
 }
 
 .full-6.contactext {
-    padding-top: 40px;
+    padding-top: 107px;
 }
-
+.contactmap {
+    padding-top: 79px;
+}
 .c-tag {
     background: #3A3391;
 /* Money White */

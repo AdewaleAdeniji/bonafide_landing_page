@@ -29,6 +29,9 @@ body {
 .desktop-only {
     display: block;
 }
+a {
+  cursor: pointer;
+}
 @media (max-width:1000px)  {
   .flex-center{
     display: flex;

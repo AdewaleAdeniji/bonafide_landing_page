@@ -110,6 +110,14 @@ span.sp-f {
 .desk {
     display: flex;
 }
+.tabcards .feature-card {
+  width: 400px;
+}
+
+.f-image {
+  justify-content: center;
+  display: flex;
+}
 @media (min-width:1200px){
   .f-title img {
     width: 437px;

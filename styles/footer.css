@@ -9,8 +9,13 @@ footer {
     line-height: 28px;
     /* or 140% */
 
-
+    padding-right: 144px;
     /* Money Grey/Grey 800 */
-
+    
     color: #282F45;
 }
+@media(max-width:500px){
+    footer {
+        padding-right: 20px;
+    }
+}   
