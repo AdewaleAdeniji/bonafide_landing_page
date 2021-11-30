@@ -17,7 +17,6 @@ const HeaderNavBar = (props) => {
     }
     return (
         <>
-        <Fade duration={3000}top>
         <div className="nav navbar navdesktop">
             <Link href="/" passHref>
                 <img src="/assets/images/bonafide.svg" className="navlogo" alt="Moneymie Logo"/>
@@ -40,7 +39,6 @@ const HeaderNavBar = (props) => {
                 </button>
             </div>
         </div>
-        </Fade> 
         <div className={mobilemenu ? 'navmobile' : 'hidden' } onClick={handleToggle.bind(this)}>
                 <div className="navcontents">
                             <header>
