@@ -110,8 +110,8 @@
         padding-right: 71px;
     } */
   .full-6.img-sections img {
-    width: 620px;
-    height: 584px;
+    width: 420px;
+    height: auto;
   }
 }
 @media (max-width: 1000px) {
@@ -129,6 +129,7 @@
   }
 }
 @media (max-width: 720px) {
+
   .hero-section.full-12 {
     padding-left: 20px;
     margin-top: 10px;
@@ -138,6 +139,9 @@
     width: calc(100vw - 50px) !important;
     padding-right: 50px;
   }
+  .full-6.img-sections {
+    padding-right: 0;
+    }
   .hero-form {
     width: 90vw;
     /* margin-right: 20px; */
